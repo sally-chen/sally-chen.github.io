@@ -113,8 +113,8 @@
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='malle_image'>
-                  <img src='images/website_head.png' width="160"></div>
-                <img src='images/website_head.png' width="160">
+                  <img src='images/website_focal.png' width="160"></div>
+                <img src='images/website_focal.png' width="160">
               </div>
               <script type="text/javascript">
                 function malle_start() {
@@ -129,10 +129,10 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="">
-                <papertitle>Implicit Neural Head Synthesis via Controllable Local Deformation Field</papertitle>
+                <papertitle>Depth Estimation with Focal Stack</papertitle>
               </a>
               <br>
-              <strong>Chuhan (Sally) Chen</strong>,>Matthew O'Toole, Gaurav Bharaj,Pablo Garrido
+              <strong>Chuhan (Sally) Chen</strong>*, Mukun Guo*, Matthew O'Toole
               <br>
               Submitted <em>CVPR</em>, 2023
               <br>
@@ -141,12 +141,49 @@
               <a href="https://arxiv.org/abs/2201.00392">arXiv</a>
               <p></p>
               <p>
-              We model multiple implicit deformation fields with local semantic rig-like control via 3DMM-based parameters and 
-		      representative facial landmarks, and propose a novel local control loss and attention mask mechanism that renders sharper locally controllable nonlinear
-		      deformations than previous implicit monocular approaches, especially mouth interior, asymmetric expressions, and finer skin details.
+             We train multiplane images (MPIs) that estimates depth map of a scene from single-view images with varying focal distances.
               </p>
             </td>
           </tr>
+		
+	    <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/website_drive.png' width="160"></div>
+                <img src='images/website_drive.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Depth Estimation with Focal Stack</papertitle>
+              </a>
+              <br>
+              <strong>Chuhan (Sally) Chen</strong>*, Mukun Guo*, Matthew O'Toole
+              <br>
+              Submitted <em>CVPR</em>, 2023
+              <br>
+              <a href="https://yifanjiang.net/MalleConv.html">project page</a>
+              /
+              <a href="https://arxiv.org/abs/2201.00392">arXiv</a>
+              <p></p>
+              <p>
+             We train multiplane images (MPIs) that estimates depth map of a scene from single-view images with varying focal distances.
+              </p>
+            </td>
+          </tr>
+		
+	  </table>
 		
       </td>
     </tr>
