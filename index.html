@@ -136,7 +136,7 @@
 	     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Ongoing Projects</heading>
+              <heading>Past and Ongoing Projects</heading>
             </td>
 	</tr>
 	      
@@ -203,6 +203,39 @@
               <p></p>
               <p>
              We create differentiable simulators with NeRF where we insert objects that attacks self-driving policies.
+              </p>
+            </td>
+          </tr>
+		
+	   <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/ddriveimage.png' width="160"></div>
+                <img src='images/ddriveimage.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <!--  <a href="">  -->
+                <papertitle>App for Aphasia</papertitle>
+             <!--  </a>   -->
+              <br>
+              <strong>Chuhan (Sally) Chen</strong>,  Yuanyuan Zhou, Katherine Bankroft, Aishni Arora
+              <br>
+		    <a href="https://drive.google.com/file/d/1ftIurzZhMMN_4S-kRr80a1gZ-rQxLgs5/view?usp=sharing">poster</a>
+              <p></p>
+              <p>
+             Aphasia is a language disorder that causes patients to lose the link between language (what one says) and meaning (what one wants to say). We interviewed speech pathologists for aphasia and created a mobile application that assists aphasia patients with rehabilitation through language exercises that help patients re-establish the connection between words and thooughts.
               </p>
             </td>
           </tr>
