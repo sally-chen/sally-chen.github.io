@@ -20,7 +20,7 @@
               <p style="text-align:center">
                 <name>Sally (Chuhan) Chen    陈楚涵</name>
               </p>
-              <p>I am a second year PhD student at CMU Robotics Institute, co-advised by <a href="https://www.cs.cmu.edu/~motoole2/">Prof. Matthew O'Toole </a> and <a href="https://www.cs.cmu.edu/~deva/"> Prof. Deva Ramanan</a>. I obtained Masters in Computer Vision at CMU as well. 
+              <p>I am a third year PhD student at CMU Robotics Institute, co-advised by <a href="https://www.cs.cmu.edu/~motoole2/">Prof. Matthew O'Toole </a> and <a href="https://www.cs.cmu.edu/~deva/"> Prof. Deva Ramanan</a>. I obtained Masters in Computer Vision at CMU as well. 
              
 		    </p>
               <p>
@@ -54,7 +54,83 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+	   <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/website_radarsim.png' width="160" height="160"></div>
+                <img src='images/website_radarsim.png' width="160" height="160">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+             <!-- <a href=""> -->
+                <papertitle>RadarSim: Simulating Single-Chip Radar via Multimodal Neural Fields</papertitle>
+              <!-- </a> -->
+              <br>
+              <strong>Chuhan (Sally) Chen</strong>, Tianshu Huang, Akarsh Prabhakara, Chaithanya Kumar Mummadi, Zhongxiao Cong, Anthony Rowe, Matthew O'Toole, Deva Ramanan
+              <br>
+              <em>3DV</em>, 2026
+              <br>
+		   
+              <!-- <a href="https://imaging.cs.cmu.edu/local_deformation_fields/">project page</a>
+              /
+              <a href="https://arxiv.org/pdf/2304.11113.pdf">arXiv</a> / <a href="https://www.youtube.com/watch?v=_Mqp4zoJJto&t=34s">video</a>
+		 -->
+              <p></p>
+              <p>
+              We design a multimodal neural field pipeline that unifies radar and RGB-camera input to simulate high-resolution radar date from low-resolution single-chip radar input while demonstrate ability for occupancy sensing, scale estimation, and more accurate geometry reconstruction for textureless regions.
+              </p>
+            </td>
+	</tr>
+   <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/website_grt.png' width="160" height="160" ></div>
+                <img src='images/website_grt.png' width="160" height="160">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+             <!-- <a href=""> -->
+                <papertitle>Towards Foundational Models for Single-Chip Radar</papertitle>
+              <!-- </a> -->
+              <br>
+              Tianshu Huang, Akarsh Prabhakara,  <strong>Chuhan (Sally) Chen</strong>, Jay Karhade, Deva Ramanan, Matthew O'Toole, Anthony Rowe
+              <br>
+              <em>ICCV</em>, 2025 (Oral Presentation)
+              <br>
+		   
+              <a href="https://wiselabcmu.github.io/grt/">project page</a>
+              /
+              <a href="https://arxiv.org/pdf/2509.12482?">arXiv</a> / <a href="https://www.youtube.com/watch?v=AIWhM32jx0o&t=2s">video</a>
 		
+              <p></p>
+              <p>
+With enough training data, transformer models can extract 3D outputs of surprising quality from indexpensive, low-resolution single-chip radar. These models scale well with additional training data, and can generalize across different settings and be readily fine tuned for new tasks.
+              </p>
+            </td>
+	</tr>
+
    <tr onmouseout="malle_stop()" onmouseover="malle_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
