@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <table style="width:100%;max-width:1050px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -20,18 +20,12 @@
               <p style="text-align:center">
                 <name>Sally (Chuhan) Chen    陈楚涵</name>
               </p>
-              <p>I am a third year PhD student at CMU Robotics Institute, co-advised by <a href="https://www.cs.cmu.edu/~motoole2/">Prof. Matthew O'Toole </a> and <a href="https://www.cs.cmu.edu/~deva/"> Prof. Deva Ramanan</a>. I obtained Masters in Computer Vision at CMU as well. 
-             
-		    </p>
+              <p>I am a fourth year PhD student at CMU Robotics Institute, co-advised by <a href="https://www.cs.cmu.edu/~motoole2/">Prof. Matthew O'Toole</a> and <a href="https://www.cs.cmu.edu/~deva/">Prof. Deva Ramanan</a>, researching on leveraging physics and generative priors for 3D/4D scene reconstruction. I obtained a Masters in Computer Vision at CMU as well.
+              </p>
               <p>
                  I did my undergraduate studies in the 
                 <a href="https://www.utoronto.ca/">University of Toronto</a> majoring in Computer Engineering, where I was fortunate to work with <a href="http://www.cs.toronto.edu/~florian/">Prof. Florian Shkurti</a> on self-driving adversarial attack with differentiable rendering. I also explored research in transit signal priority with <a href="http://civmin.utoronto.ca/home/about-us/directory/professors/amer-shalaby/">Prof. Amer Shalaby</a> and content ranking with ML with <a href="https://d3m.mie.utoronto.ca/members/ssanner/">Prof. Scott Sanner</a>.
               </p>
-		<p>
-              During my undergrad I studied at Kyoto University for one semester supported by JASSO scholarship, during which I worked breifly with<a href="http://sap.ist.i.kyoto-u.ac.jp/members/kawahara/"> Prof. Tatsuya Kawahara </a> on dialogue generation, and also explored many many beautiful architectures and gardens.
-              </p>
-		
-		   
               <p style="text-align:center">
                 <a href="mailto:chuhanc@andrew.cmu.edu">Email</a> &nbsp/&nbsp
                 <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=bYm0da0AAAAJ">Google Scholar</a>
@@ -45,32 +39,132 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Education &amp; Employment</heading>
+              <ul class="timeline">
+                <li><strong>Summer–Fall 2025</strong> — Research Scientist Intern, <a href="https://ai.facebook.com/">Meta</a> (Seattle)</li>
+                <li><strong>Summer 2024</strong> — Research Scientist Intern, <a href="https://www.bosch.com/research/bcai/">Bosch Center for Artificial Intelligence</a> (Pittsburgh)</li>
+                <li><strong>2023–present</strong> — PhD in Robotics, Carnegie Mellon University</li>
+                <li><strong>2022–2023</strong> — MS in Computer Vision, Carnegie Mellon University</li>
+                <li><strong>2020–2021</strong> — Data Scientist, <a href="https://www.rbc.com/">RBC</a> (Toronto)</li>
+                <li><strong>Spring–Summer 2018</strong> — Exchange semester, Kyoto University</li>
+                <li><strong>2015–2020</strong> — BASc in Computer Engineering, University of Toronto</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I'm interested in computer graphics, computer vision and computational photography research with a focus on neural rendering. In terms of application, I'm interested in healthcare, smart cities and creative design tools. Some representative
-                research projects I have been involved in are listed below. 
+                I'm interested in 3D/4D reconstruction of the world. I work at the intersection of computer vision, computer graphics, and computational photography. My research spans a wide range of topics including reconstructing water sceneries from casual captures, generative relighting, radar-camera multimodal reconstruction and simulation, neural head synthesis etc.
               </p>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-	   <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+	<tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='malle_image'>
-                  <img src='images/website_radarsim.png' width="160" height="160"></div>
-                <img src='images/website_radarsim.png' width="160" height="160">
+                <video width="160" height="160" autoplay muted loop playsinline poster="images/lightcrafter.jpg" aria-label="LightCrafter relighting result">
+                  <source src="images/paper-media/lightcrafter-3x3.mp4" type="video/mp4">
+                </video>
               </div>
-              <script type="text/javascript">
-                function malle_start() {
-                  document.getElementById('malle_image').style.opacity = "1";
-                }
-
-                function malle_stop() {
-                  document.getElementById('malle_image').style.opacity = "0";
-                }
-                malle_stop()
-              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>LightCrafter: PBR-Conditioned Video Diffusion Refinement for Controllable and Consistent Relighting</papertitle>
+              <br>
+              Zixin Guo, Yehonatan Litman, Yifeng He, John Miller, <strong>Chuhan Chen</strong><span style="color:#f07ca8">*</span>, Deva Ramanan
+              <br>
+              <em>arXiv</em>, 2026
+              <br>
+              <a href="https://arxiv.org/abs/2607.08016">arXiv</a>
+              /
+              <a href="https://zixinguo.me/lightcrafter/">project page</a>
+              <p></p>
+              <p>
+              We combine physically based rendering with video diffusion refinement to enable controllable, temporally consistent relighting. The PBR rendering provides accurate lighting control, while diffusion priors restore complex effects such as global illumination.
+              </p>
+              <p style="color:#f07ca8;font-size:smaller">* Mentor of the project</p>
+            </td>
+	</tr>
+	<tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src="images/paper-media/anigs.jpg" width="160" height="160" alt="AniGS 3D scene animation teaser">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>AniGS: Bridging Rendering and Diffusion Prior for 3D Scene Animation</papertitle>
+              <br>
+              Yen-Chi Cheng, Chen Gao, <strong>Chuhan Chen</strong>, Tzu-Mao Li, Rajiv Shah, Ayush Saraf, Chang-Hyun Kim, Liangyan Gui, Alexander Schwing, Johannes Kopf, Hung-Yu Tseng
+              <br>
+              <em>arXiv</em>, 2026
+              <br>
+              <a href="https://arxiv.org/abs/2607.18539">arXiv</a>
+              <p></p>
+              <p>
+              We animate static 3D Gaussian Splatting scenes by combining a time-conditioned deformation field with a pretrained video diffusion model. AniGS adds natural ambient motion—such as vegetation movement—while preserving rigid structures and restricting changes to desired regions.
+              </p>
+            </td>
+	</tr>
+	<tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <video width="160" height="160" autoplay muted loop playsinline poster="images/eulerian_motion.jpg" aria-label="Eulerian Motion Reconstruction novel-view trajectory">
+                  <source src="images/paper-media/eulerian-ours-top-left.mp4" type="video/mp4">
+                </video>
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Eulerian Motion Reconstruction for Water Scenery</papertitle>
+              <br>
+              <strong>Chuhan Chen</strong>, Yen-Chi Cheng, Ayush Saraf, Rajiv Shah, Tzu-Mao Li, Johannes Kopf, Chen Gao, Hung-Yu Tseng, Deva Ramanan
+              <br>
+              <em>arXiv</em>, 2026
+              <br>
+              <a href="https://arxiv.org/abs/2609.38622">arXiv</a>
+              /
+              <a href="https://sally-chen.github.io/eulersplats/">project page</a>
+              <p></p>
+              <p>
+              We reconstruct looping 4D water scenes from a single non-looping video using a periodic Eulerian motion field and Gaussian splats. A residual time-varying term captures stochastic dynamics, enabling photorealistic novel-view animation of water scenery.
+              </p>
+            </td>
+	</tr>
+	<tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <video width="160" height="160" autoplay muted loop playsinline aria-label="BrickWright project teaser">
+                  <source src="images/paper-media/brickwright-7-10.mp4?v=20261124d" type="video/mp4">
+                </video>
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>BrickWright: Agentic Creation of Physically Feasible Brick Builds</papertitle>
+              <br>
+              A Pun, K Dai, <strong>Sally Chen</strong>, M Jones, R Liu, K Deng, C Liu, M Agrawala
+              <br>
+              <em>arXiv</em>, 2026
+              <br>
+              <a href="https://arxiv.org/abs/2610.31651">arXiv</a>
+              /
+              <a href="https://avalovelace1.github.io/brickwright/">project page</a>
+              <p></p>
+              <p>
+              We present an agent framework for generating physically feasible LEGO builds from text or image prompts. BrickWright combines an ergonomic brick assembly toolkit with automatic structural validation, achieving fully valid assemblies while preserving prompt adherence.
+              </p>
+            </td>
+	</tr>
+	</tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+	   <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <video width="160" height="160" autoplay muted loop playsinline poster="images/paper-media/radarsim-radar-mov-4-11.mp4" aria-label="RadarSim radar preview">
+                  <source src="images/paper-media/radarsim-radar-mov-4-11.mp4?v=20261124g" type="video/mp4">
+                </video>
+              </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
              <!-- <a href=""> -->
@@ -82,33 +176,19 @@
               <em>3DV</em>, 2026
               <br>
 		   
-              <!-- <a href="https://imaging.cs.cmu.edu/local_deformation_fields/">project page</a>
+              <a href="https://sally-chen.github.io/radar-sim/">project page</a>
               /
-              <a href="https://arxiv.org/pdf/2304.11113.pdf">arXiv</a> / <a href="https://www.youtube.com/watch?v=_Mqp4zoJJto&t=34s">video</a>
-		 -->
+              <a href="https://arxiv.org/pdf/2605.26328">arXiv</a>
               <p></p>
               <p>
               We design a multimodal neural field pipeline that unifies radar and RGB-camera input to simulate high-resolution radar date from low-resolution single-chip radar input while demonstrate ability for occupancy sensing, scale estimation, and more accurate geometry reconstruction for textureless regions.
               </p>
             </td>
 	</tr>
-   <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+   <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='malle_image'>
-                  <img src='images/website_grt.png' width="160" height="160" ></div>
-                <img src='images/website_grt.png' width="160" height="160">
-              </div>
-              <script type="text/javascript">
-                function malle_start() {
-                  document.getElementById('malle_image').style.opacity = "1";
-                }
-
-                function malle_stop() {
-                  document.getElementById('malle_image').style.opacity = "0";
-                }
-                malle_stop()
-              </script>
+                <img src='images/website_grt.png' width="160" height="160" ></div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
              <!-- <a href=""> -->
@@ -131,23 +211,12 @@ With enough training data, transformer models can extract 3D outputs of surprisi
             </td>
 	</tr>
 
-   <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+   <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='malle_image'>
-                  <img src='images/website_head.png' width="160"></div>
-                <img src='images/website_head.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function malle_start() {
-                  document.getElementById('malle_image').style.opacity = "1";
-                }
-
-                function malle_stop() {
-                  document.getElementById('malle_image').style.opacity = "0";
-                }
-                malle_stop()
-              </script>
+                <video width="160" height="160" autoplay muted loop playsinline poster="images/paper-media/head-synthesis-3-14.mp4" aria-label="Implicit neural head synthesis preview">
+                  <source src="images/paper-media/head-synthesis-3-14.mp4?v=20261124h" type="video/mp4">
+                </video></div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
              <!-- <a href=""> -->
@@ -172,23 +241,10 @@ With enough training data, transformer models can extract 3D outputs of surprisi
             </td>
 	</tr>
 		
-	<tr onmouseout="malle_stop()" onmouseover="malle_start()">
+	<tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='malle_image'>
-                  <img src='images/ddriveimage.png' width="160"></div>
-                <img src='images/ddriveimage.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function malle_start() {
-                  document.getElementById('malle_image').style.opacity = "1";
-                }
-
-                function malle_stop() {
-                  document.getElementById('malle_image').style.opacity = "0";
-                }
-                malle_stop()
-              </script>
+                <img src='images/ddriveimage.png' width="160"></div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <!--  <a href="">  -->
@@ -209,22 +265,11 @@ With enough training data, transformer models can extract 3D outputs of surprisi
           </tr>
         
 		
-	<tr onmouseout="malle_stop()" onmouseover="malle_start()">
+	<tr>
 	<td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='malle_image'>
-                  <img src='images/image_transit2.png' width="160">
+                <img src='images/image_transit2.png' width="160">
               </div>
-              <script type="text/javascript">
-                function malle_start() {
-                  document.getElementById('malle_image').style.opacity = "1";
-                }
-
-                function malle_stop() {
-                  document.getElementById('malle_image').style.opacity = "0";
-                }
-                malle_stop()
-              </script>
             </td>  
 	    <td style="padding:20px;width:75%;vertical-align:middle">
              <!-- <a href=""> -->
@@ -248,91 +293,9 @@ With enough training data, transformer models can extract 3D outputs of surprisi
 	     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Past and Ongoing Projects</heading>
-            </td>
-	</tr>
-	      
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='malle_image'>
-                  <img src='images/nerfgif.gif' width="160"></div>
-                <img src='images/nerfgif.gif' width="160">
-              </div>
-              <script type="text/javascript">
-                function malle_start() {
-                  document.getElementById('malle_image').style.opacity = "1";
-                }
-
-                function malle_stop() {
-                  document.getElementById('malle_image').style.opacity = "0";
-                }
-                malle_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <!-- <a href=""> -->
-                <papertitle>Depth Estimation with Focal Stack</papertitle>
-             <!--  </a> -->
-              <br>
-              <strong>Chuhan (Sally) Chen</strong>*, Mukun Guo*, Matthew O'Toole
-              <br>
-              <a href="https://mscvprojects.ri.cmu.edu/2023team4/">project page</a>
-              <p></p>
-              <p></p>
-              <p>
-             We train multiplane images (MPIs) that estimates depth map of a scene from single-view images with varying focal distances.
-              </p>
-            </td>
-          </tr>
-		
-	 
-		
-	   <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='malle_image'>
-                  <img src='images/aphasia.png' width="160"></div>
-                <img src='images/aphasia.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function malle_start() {
-                  document.getElementById('malle_image').style.opacity = "1";
-                }
-
-                function malle_stop() {
-                  document.getElementById('malle_image').style.opacity = "0";
-                }
-                malle_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <!--  <a href="">  -->
-                <papertitle>App for Aphasia</papertitle>
-             <!--  </a>   -->
-              <br>
-              <strong>Chuhan (Sally) Chen</strong>*,  Yuanyuan Zhou*, Katherine Bankroft*, Aishni Arora*
-              <br>
-		    <a href="https://drive.google.com/file/d/1ftIurzZhMMN_4S-kRr80a1gZ-rQxLgs5/view?usp=sharing">poster</a>
-              <p></p>
-              <p>
-             Aphasia is a language disorder that causes patients to lose the link between language (what one says) and meaning (what one wants to say). We interviewed speech pathologists for aphasia and created a mobile application that assists aphasia patients with rehabilitation through language exercises that help patients re-establish the connection between words and thooughts.
-              </p>
-            </td>
-          </tr>
-	
-		
-	  </table>
-	  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Some other interests</heading>
               <p>
-                I'm interested in learning languages & linguistics in general. I speak Mandarin and English fluently, Japanese somewhat fluently (but have forgotten much due to lack of practice) and know some Latin (ahh all the conjugations..). 
-		      Big thanks to <a href="https://www.eas.utoronto.ca/people/directories/all-faculty/atsuko-sakaki"> Prof. Atsuko Sakaki </a> - from her class I picked up some Classical Japanese, and now can read some classical text with the help of grammar books.
-		      Currently learning Spanish, trying hard to practice tongue-rolling (but do feel occasionally that this might be genetic..) and hopefully can speak it fluently one day! 
-		      And lastly, I'm from Nanjing, China, so I also speak the Nanjingese dialect, rather sad to see this dialect disappearing and hopefully can contribute to maintaining it. 
+                I'm interested in learning languages &amp; linguistics in general. I speak Mandarin and English fluently, Japanese somewhat fluently (but have forgotten much due to lack of practice) and know some Latin (ahh all the conjugations..). Big thanks to <a href="https://www.eas.utoronto.ca/people/directories/all-faculty/atsuko-sakaki">Prof. Atsuko Sakaki</a> - from her class I picked up some Classical Japanese, and now can read some classical text with the help of grammar books. Currently learning Spanish and Arabic and hope one day I can speak these languages fluently!! (Inshallah!) And lastly, I'm from Nanjing, China, so I also speak the Nanjingese dialect, rather sad to see this dialect disappearing and hopefully can contribute to maintaining it.
               </p>
             </td>
           </tr>
